@@ -30,8 +30,8 @@ Carousel.propTypes = {
 
 const StyledCarousel = styled.div`
   > .awssld {
-    --control-bullet-color: "rgba(100, 116, 139, 1)";
-    --control-bullet-active-color: "rgba(12, 17, 24, 1)";
+    --control-bullet-color: rgba(100, 116, 139, 1);
+    --control-bullet-active-color: rgba(12, 17, 24, 1);
     --content-background-color: transparent;
     --loader-bar-color: "rgba(255, 255, 255, 1)";
     --loader-bar-height: 1px;

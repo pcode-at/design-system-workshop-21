@@ -1,0 +1,43 @@
+import { Meta, Canvas, Story, ArgsTable } from '@storybook/addon-docs/blocks';
+
+import ProductGrid from ".";
+import ProductGridItem from "../ProductGridItem";
+import productImage from "../ProductGridItem/productImageSample.jpg";
+
+export const args = {
+  columns: 2,
+  };
+  
+  
+export const ProductGridItemArgs = {
+  size: "medium",
+  name: "Nike Air Force 1 '07 LX",
+  image: productImage,
+  price: "95.00",
+  description: "Men's Shoe",
+};
+
+<Meta title="Components/ProductGrid" parameters={{
+    viewport: {
+      defaultViewport: 'mobile1'
+    }}}/>
+
+## ProductGrid
+
+ A container to hold product ProductGridItems
+
+<Canvas>
+  <Story name="Default" args={args}>
+    {({ columns, ...args }) => (
+      <ProductGrid columns={columns}>
+        {[...Array(8)].map((e, i) => (
+          <ProductGridItem key={i} {...ProductGridItemArgs} />
+        ))}
+      </ProductGrid>
+    )}
+  </Story>
+</Canvas>
+
+## Props
+
+<ArgsTable of={ProductGrid} />
