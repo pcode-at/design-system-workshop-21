@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.js": "/hands-on-design-system/product/static/js/main.ed26795f.chunk.js",
+    "main.js.map": "/hands-on-design-system/product/static/js/main.ed26795f.chunk.js.map",
+    "runtime-main.js": "/hands-on-design-system/product/static/js/runtime-main.6f21b2ee.js",
+    "runtime-main.js.map": "/hands-on-design-system/product/static/js/runtime-main.6f21b2ee.js.map",
+    "static/css/2.f0d8f430.chunk.css": "/hands-on-design-system/product/static/css/2.f0d8f430.chunk.css",
+    "static/js/2.db74e2ec.chunk.js": "/hands-on-design-system/product/static/js/2.db74e2ec.chunk.js",
+    "static/js/2.db74e2ec.chunk.js.map": "/hands-on-design-system/product/static/js/2.db74e2ec.chunk.js.map",
+    "index.html": "/hands-on-design-system/product/index.html",
+    "static/css/2.f0d8f430.chunk.css.map": "/hands-on-design-system/product/static/css/2.f0d8f430.chunk.css.map",
+    "static/js/2.db74e2ec.chunk.js.LICENSE.txt": "/hands-on-design-system/product/static/js/2.db74e2ec.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6f21b2ee.js",
+    "static/css/2.f0d8f430.chunk.css",
+    "static/js/2.db74e2ec.chunk.js",
+    "static/js/main.ed26795f.chunk.js"
+  ]
+}
