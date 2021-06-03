@@ -1,7 +1,7 @@
 /*
  * This is an index file for your library.
  * It's being updated automatically by add-component script
- * Don't edit it directly, your chages will be overwritten.
+ * You can add tokens/components reexport, it will be preserved at next run, but not anything else.
  */
 
 export { default as GlobalStyle } from "./global.js";
