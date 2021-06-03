@@ -1,5 +1,6 @@
 import React from "react";
 import styled from "styled-components";
+import { colors } from "../../tokens";
 
 /* Divider
  *
@@ -12,7 +13,7 @@ const Divider = (props) => {
 export const StyledDivider = styled.div`
   width: 100%;
   height: 1px;
-  background-color: rgba(12, 17, 24, 1);
+  background-color: ${colors.gray800};
   opacity: 0.1;
 `;
 

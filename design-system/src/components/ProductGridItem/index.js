@@ -3,7 +3,7 @@ import styled from "styled-components";
 import Button from "../Button";
 import Icon from "../Icon";
 import { bool, string, oneOf } from "prop-types";
-import { colors, typography as t } from "tokens";
+import { colors, typography as t, spacing } from "tokens";
 
 /* ProductGridItem
  *
@@ -68,7 +68,8 @@ const StyledProductGridItem = styled.div`
     size === "small" &&
     `height: 100px; 
     flex-direction: row;`}
-  ${({ size }) => size === "big" && `margin-bottom: 40px;`}
+  ${({ size }) =>
+    size === "big" && `margin-bottom: ${spacing.spacing40Bottom};`}
 `;
 
 const StyledProductGridItemImage = styled.img`
@@ -145,7 +146,7 @@ const StyledProductGridItemName = styled.h2`
         text-overflow: ellipsis;
         white-space: nowrap;
         overflow: hidden;
-        padding-right: 16px;
+        padding-right: ${spacing.spacing12Bottom};
     `;
     }
   }}

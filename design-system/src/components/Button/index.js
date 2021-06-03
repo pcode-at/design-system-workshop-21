@@ -5,7 +5,7 @@
 
 import React from "react";
 import styled, { css } from "styled-components";
-import { colors } from "../../tokens";
+import { colors, spacing } from "../../tokens";
 import { bool, string } from "prop-types";
 import { StyledIcon } from "../Icon";
 
@@ -31,7 +31,8 @@ const StyledButton = styled.button`
   text-decoration: none;
   border-width: 0;
   border-radius: 1rem;
-  padding: ${({ isIcon }) => (isIcon ? "12px" : "16px")};
+  padding: ${({ isIcon }) =>
+    isIcon ? spacing.spacing12Bottom : spacing.spacing16Bottom};
   background-color: ${({ color }) => color};
   opacity: ${({ disabled }) => (disabled ? 0.6 : 1)};
   color: ${colors.background500};
